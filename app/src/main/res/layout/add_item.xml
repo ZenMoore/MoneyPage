@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+
+            <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="21dp"
+                    />
+
+            <TextView
+                    android:id="@+id/commodity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="商品"
+                    android:textSize="18sp"
+                    android:fontFamily="monospace"
+                    android:textColor="@android:color/background_dark"/>
+
+            <EditText
+                    android:id="@+id/editCommodity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:drawable/alert_light_frame"
+                    android:textCursorDrawable="@android:color/darker_gray">
+
+                <requestFocus/>
+            </EditText>
+
+            <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="21dp"/>
+
+            <TextView
+                    android:id="@+id/price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="支出金额"
+                    android:textSize="18sp"
+                    android:fontFamily="monospace"
+                    android:textColor="@android:color/background_dark"/>
+
+            <EditText
+                    android:id="@+id/editPrice"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:drawable/alert_light_frame"
+                    android:textCursorDrawable="@android:color/darker_gray"/>
+
+            <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="21dp"/>
+
+            <TextView
+                    android:id="@+id/book"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="书目"
+                    android:textSize="18sp"
+                    android:fontFamily="monospace"
+                    android:textColor="@android:color/background_dark"/>
+
+            <EditText
+                    android:id="@+id/editBook"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:drawable/alert_light_frame"
+                    android:textCursorDrawable="@android:color/darker_gray"/>
+
+            <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="21dp"/>
+
+            <TextView
+                    android:id="@+id/time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="支出时间"
+                    android:textSize="18sp"
+                    android:textColor="@android:color/background_dark"/>
+
+            <EditText
+                    android:id="@+id/editTime"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:drawable/alert_light_frame"
+                    android:textCursorDrawable="@android:color/darker_gray"/>
+
+            <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="21dp"/>
+
+            <Button
+                    android:id="@+id/ok"
+                    android:text="确定"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:fontFamily="casual"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:textColor="@android:color/background_light"
+                    android:textStyle="bold"/>
+
+        </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>
